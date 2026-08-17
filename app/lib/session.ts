@@ -31,7 +31,7 @@ export async function decrypt(session: string | undefined = '') {
 
 export async function createSession(user_id: number) {
     try {
-        const expiresAt = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
+        const expiresAt = new Date(Date.now() + 60 * 1000)
 
         // 1. Create a session in the database
         const data = await supabase.from('sessions').insert({ user_id: user_id, expiresAt: expiresAt }).select();
