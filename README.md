@@ -2,7 +2,7 @@
 
 A simple workout logging app. Users can sign up, log their workouts (exercise, duration, date), and view their progress over time.
 
-Live demo: https://fitness-tracker-1-icuy.onrender.com
+Live demo: https://fitness-tracker-qkxx.onrender.com
 
 Note: this is hosted on Render's free tier, so the first load after a period of inactivity may take 30-60 seconds while the server spins back up.
 
